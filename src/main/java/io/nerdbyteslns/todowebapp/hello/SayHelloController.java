@@ -45,4 +45,10 @@ public class SayHelloController {
 
         return bd.toString();
     }
+
+
+    @RequestMapping("say-hello-jsp")
+    public String sayHelloJsp() {
+        return "sayHelloJsp";
+    }
 }
